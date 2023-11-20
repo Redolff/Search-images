@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 22px;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+}
+
+.header input{
+    outline: none;
+    border: solid 1px;
+    padding: 5px 5px;
+    border-radius: 4px; 
+}
+
+.button-enviar{
+    margin-left: 5px;
+    background-color: rgb(120, 253, 120);
+    border-radius: 4px;
+    padding: 5px 5px;
+    cursor: pointer;
+}

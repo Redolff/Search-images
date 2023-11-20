@@ -1,0 +1,18 @@
+html{
+  box-sizing: content-box;
+}
+
+html *{
+  box-sizing: inherit;
+}
+
+.container{
+  display: flex;
+  background-color: #eee;
+  justify-content: center;
+}
+
+.center{
+  column-count: 3;
+  width: 1200px;
+}
